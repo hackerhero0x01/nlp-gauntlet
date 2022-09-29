@@ -1,0 +1,139 @@
+{
+    "packageDirectories": [
+        {
+            "path": "sfdx-source/main",
+            "default": true,
+            "package": "NLP Gauntlet - core",
+            "versionName": "Spring 20",
+            "versionDescription": "Nlp Gauntlet Core Spring 20",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json"
+        },
+        {
+            "path": "sfdx-source/services/mock",
+            "default": false,
+            "package": "NLP Gauntlet - mock",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Mock Model integration",
+            "versionNumber": "1.0.2.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.1.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/dialog-flow",
+            "default": false,
+            "package": "NLP Gauntlet - dialog-flow",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Dialog Flow integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/einstein-ai",
+            "default": false,
+            "package": "NLP Gauntlet - einstein-ai",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Einstein Ai integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/luis",
+            "default": false,
+            "package": "NLP Gauntlet - luis",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Luis integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/ultimate-ai",
+            "default": false,
+            "package": "NLP Gauntlet - ultimate-ai",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Ultimate Ai integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/watson",
+            "default": false,
+            "package": "NLP Gauntlet - watson",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Watson integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        },
+        {
+            "path": "sfdx-source/services/wit-ai",
+            "default": false,
+            "package": "NLP Gauntlet - wit-ai",
+            "versionName": "Spring 20",
+            "versionDescription": "NLP Gauntlet Wait Ai integration",
+            "versionNumber": "1.0.1.NEXT",
+            "definitionFile": "config/project-scratch-def.json",
+            "dependencies": [
+                {
+                    "package": "NLP Gauntlet - core",
+                    "versionNumber": "1.0.0.LATEST"
+                }
+            ]
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "NLP Gauntlet - core": "0Ho4R000000CaSjSAK",
+        "NLP Gauntlet - core@1.0.1-1": "04t4R000001Z91wQAC",
+        "NLP Gauntlet - mock": "0Ho4R000000CaSoSAK",
+        "NLP Gauntlet - mock@1.0.2-1": "04t4R000001Z92aQAC",
+        "NLP Gauntlet - dialog-flow": "0Ho4R000000CaStSAK",
+        "NLP Gauntlet - dialog-flow@1.0.1-3": "04t4R000001Z92LQAS",
+        "NLP Gauntlet - einstein-ai": "0Ho4R000000CaSySAK",
+        "NLP Gauntlet - einstein-ai@1.0.1-1": "04t4R000001Z92QQAS",
+        "NLP Gauntlet - luis": "0Ho4R000000CaT3SAK",
+        "NLP Gauntlet - luis@1.0.1-1": "04t4R000001Z92fQAC",
+        "NLP Gauntlet - ultimate-ai": "0Ho4R000000CaT8SAK",
+        "NLP Gauntlet - ultimate-ai@1.0.1-1": "04t4R000001Z92uQAC",
+        "NLP Gauntlet - watson": "0Ho4R000000CaTDSA0",
+        "NLP Gauntlet - watson@1.0.1-1": "04t4R000001Z92zQAC",
+        "NLP Gauntlet - wit-ai": "0Ho4R000000CaTISA0",
+        "NLP Gauntlet - wit-ai@1.0.1-1": "04t4R000001Z934QAC"
+    }
+}

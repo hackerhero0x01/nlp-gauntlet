@@ -1,0 +1,17 @@
+{
+    "orgName": "Stark Industries",
+    "edition": "Enterprise",
+    "features": [
+        "ForceComPlatform"
+    ],
+    "settings": {
+        "lightningExperienceSettings": {
+            "enableS1DesktopEnabled": true
+        },
+        "securitySettings": {
+            "passwordPolicies": {
+                "enableSetPasswordInApi": true
+            }
+        }
+    }
+}
